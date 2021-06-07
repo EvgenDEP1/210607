@@ -17,3 +17,13 @@ class TrainingGroup:
 
         # print('Студент добавлен  {}'.format(self.__hash__()))
         # print()
+
+    def remove(self, human: Human) -> None:
+        for item in self.humans:
+            if item == human:
+                self.humans.remove(item)
+                item.print()
+                break
+
+
+
