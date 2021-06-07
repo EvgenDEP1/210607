@@ -8,6 +8,6 @@ class Human:
 
 class TrainingGroup:
 
-    def __init__(self, name, humans):
+    def __init__(self, name):
         self.name = name
-        self.humans = humans
+        self.humans = []
