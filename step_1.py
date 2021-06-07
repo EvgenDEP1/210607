@@ -13,7 +13,7 @@ class TrainingGroup:
         self.humans = []
 
     def remove(self, human: Human) -> None:
-        self.name.append(human)
+        self.humans.append(human)
 
         # print('Студент добавлен  {}'.format(self.__hash__()))
         # print()
