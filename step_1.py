@@ -11,3 +11,9 @@ class TrainingGroup:
     def __init__(self, name):
         self.name = name
         self.humans = []
+
+    def remove(self, human: Human) -> None:
+        self.name.append(human)
+
+        # print('Студент добавлен  {}'.format(self.__hash__()))
+        # print()
